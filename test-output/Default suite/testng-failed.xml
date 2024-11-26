@@ -3,16 +3,16 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com_hms_doctorTest.CreatePatientTest">
+      <class name="com_hms_doctorTest.CreateDoctorTest">
         <methods>
           <include name="beforsuite"/>
           <include name="afterSuite"/>
           <include name="bm"/>
           <include name="ac"/>
           <include name="bc"/>
-          <include name="addMedicalHistoryTest"/>
+          <include name="createDoctorTest"/>
         </methods>
-      </class> <!-- com_hms_doctorTest.CreatePatientTest -->
+      </class> <!-- com_hms_doctorTest.CreateDoctorTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
